@@ -1,0 +1,28 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"pages": {
+		"demo": {
+			"hello_world": "Hello, {name} from England (en)!"
+		},
+		"home": {
+			"hello_world": "Home page (en)!"
+		},
+		"about": {
+			"hello_world": "About page (en)!"
+		}
+	},
+	"common": {
+		"button": {
+			"cancel": "Cancel",
+			"save": "Save",
+			"submit": "Submit",
+			"reset": "Reset",
+			"search": "Search",
+			"filter": "Filter",
+			"sort": "Sort",
+			"view": "View",
+			"edit": "Edit"
+		}
+	}
+}

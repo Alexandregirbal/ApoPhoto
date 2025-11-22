@@ -1,0 +1,27 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"pages": {
+		"demo": {
+			"hello_world": "Salut, {name} de France (fr)!"
+		},
+		"home": {
+			"hello_world": "Page d'accueil (fr)!"
+		},
+		"about": {
+			"hello_world": "Page à propos (fr)!"
+		}
+	},
+	"common": {
+		"button": {
+			"cancel": "Annuler",
+			"save": "Enregistrer",
+			"submit": "Envoyer",
+			"reset": "Réinitialiser",
+			"search": "Rechercher",
+			"filter": "Filtrer",
+			"sort": "Trier",
+			"view": "Voir",
+			"edit": "Modifier"
+		}
+	}
+}
