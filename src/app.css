@@ -1,1 +1,49 @@
 @import 'tailwindcss';
+
+@theme {
+	/* Shell / app chrome (can be used for body bg) */
+	--color-page: #020617;
+
+	/* Main light UI surfaces */
+	--color-background: #fdf9f4; /* Warm off-white */
+	--color-surface: #f4e6d8; /* Soft light beige */
+	--color-muted: #e6e0d8; /* Light warm grey */
+
+	/* Brand-ish core colors */
+	--color-primary: #c5d6cc; /* Sage green (base / 500) */
+	--color-primary-soft: #afc7df; /* Muted baby blue */
+	--color-secondary: #afc7df; /* Alias to baby blue */
+
+	/* Accents (buttons, highlights, chips, badges) */
+	--color-accent: #f3c7c9; /* Soft blush pink */
+	--color-accent-strong: #88a6a6; /* Dusty teal */
+	--color-accent-soft: #e3a8a9; /* Dusty rose */
+
+	/* Semantic / utility colors */
+	--color-warning: #d9b65d; /* Soft mustard */
+	--color-info: #d5c4e3; /* Pastel lavender */
+
+	/* Optional: neutrals driven by your warm background */
+	--color-neutral-50: #fdf9f4;
+	--color-neutral-100: #f4e6d8;
+	--color-neutral-200: #e6e0d8;
+	--color-neutral-300: #d5cec5;
+	--color-neutral-400: #b8aca1;
+	--color-neutral-500: #9b8c7f;
+	--color-neutral-600: #7d6f63;
+	--color-neutral-700: #5f5449;
+	--color-neutral-800: #41382f;
+	--color-neutral-900: #261f1b;
+
+	/* Optional: a classic primary scale based on #c5d6cc */
+	--color-primary-50: #f6f9f7;
+	--color-primary-100: #eef3f0;
+	--color-primary-200: #e5ede8;
+	--color-primary-300: #dce6e0;
+	--color-primary-400: #d4e0d9;
+	--color-primary-500: #c5d6cc;
+	--color-primary-600: #a7b6ad;
+	--color-primary-700: #8a968f;
+	--color-primary-800: #626b66;
+	--color-primary-900: #3b403d;
+}

@@ -1,5 +1,6 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Salut, {name} de France (fr)!",
 	"pages": {
 		"demo": {
 			"hello_world": "Salut, {name} de France (fr)!"

@@ -1,0 +1,18 @@
+---
+globs: *.svelte
+alwaysApply: false
+---
+## Frontend Design Rules
+
+- **Mobile-First Design**: All design and styling must be implemented using a mobile-first approach. Start with mobile styles as the base, then use tailwind media queries to progressively enhance for larger screens (tablets, desktops). Never use desktop-first breakpoints or styles that assume larger viewports by default.
+
+## Tailwind CSS v4 Rules
+
+- **Utility-First Approach**: Use Tailwind utility classes for styling. Prefer utilities over custom CSS when possible.
+- **Responsive Breakpoints**: Use Tailwind's responsive prefixes in mobile-first order: `sm:` (640px), `md:` (768px), `lg:` (1024px), `xl:` (1280px), `2xl:` (1536px). Always start with base mobile styles, then add breakpoint variants.
+- **Custom Theme**: Use CSS custom properties defined in `@theme` block in `app.css` for project-specific colors (e.g., `bg-background`, `text-primary`, `bg-accent`).
+- **No Config File**: Tailwind v4 uses CSS-based configuration via `@theme` directive. Do not create or modify `tailwind.config.js` files.
+- **Class Organization**: Group related utility classes logically (layout, spacing, typography, colors, etc.) and use line breaks for readability when classes exceed ~5-6 utilities.
+- **Arbitrary Values**: Use arbitrary values sparingly (e.g., `w-[123px]`, `text-[#ff0000]`). Prefer theme values or standard utilities when available.
+- **Dark Mode**: No dark mode.
+
